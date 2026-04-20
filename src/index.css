@@ -1,0 +1,38 @@
+@import "tw-animate-css";
+
+:root {
+  --background: 210 20% 98%;
+  --foreground: 215 25% 15%;
+  --border: 215 20% 88%;
+  --input: 215 20% 88%;
+  --ring: 215 60% 35%;
+  --card: 0 0% 100%;
+  --card-foreground: 215 25% 15%;
+  --primary: 215 60% 28%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 15% 94%;
+  --secondary-foreground: 215 25% 25%;
+  --muted: 210 15% 94%;
+  --muted-foreground: 215 15% 45%;
+  --accent: 38 80% 50%;
+  --accent-foreground: 0 0% 100%;
+  --radius: 0.5rem;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dark {
+  color-scheme: dark;
+}

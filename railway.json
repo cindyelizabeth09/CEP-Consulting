@@ -5,7 +5,7 @@
   },
   "deploy": {
     "numReplicas": 1,
-    "startCommand": "pnpm build && PORT=${PORT:-3000} pnpm preview",
+    "startCommand": "pnpm preview",
     "restartPolicyMaxRetries": 5
   }
 }
